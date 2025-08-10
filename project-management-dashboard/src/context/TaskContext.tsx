@@ -60,7 +60,7 @@ export const TaskProvider: React.FC<{ children: React.ReactNode }> = ({ children
         priority: 'High',
         category: 'Backend',
         dueDate: '2025-08-03',
-        assignedUser: 'Charlie Brown',
+        assignedUser: 'Cloude Smith',
         assignedOn: '2025-07-30',
         completed: false
       },
@@ -87,10 +87,20 @@ export const TaskProvider: React.FC<{ children: React.ReactNode }> = ({ children
       {
         id: '6',
         taskName: 'Client meeting preparation',
-        priority: 'High',
+        priority: 'Low',
         category: 'Meeting',
         dueDate: '2025-08-09',
         assignedUser: 'Charlie Brown',
+        assignedOn: '2025-08-07',
+        completed: false
+      },
+      {
+        id: '6',
+        taskName: ' meeting preparation',
+        priority: 'High',
+        category: 'Testing',
+        dueDate: '2023-10-09',
+        assignedUser: 'Jane Smith',
         assignedOn: '2025-08-07',
         completed: false
       }
